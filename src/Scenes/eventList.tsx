@@ -14,7 +14,6 @@ import EventCardList from './Components/eventCardList';
 import eventData from '../Data/data';
 import { ListViewImage, GridViewImage } from '../Config/imageMap';
 import COLORS from '../Config/colorMap'
-import DraggableFlatList from 'react-native-draggable-flatlist';
 
 const EventList: React.FC = ({ route }) => {
     const { params } = route;
@@ -66,7 +65,7 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         justifyContent: 'center',
-        backgroundColor: 'pink',
+        backgroundColor: 'white',
     },
     subContainer: {
         backgroundColor: 'white',

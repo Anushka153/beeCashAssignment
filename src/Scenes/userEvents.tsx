@@ -29,6 +29,7 @@ const UserEvents: React.FC = ({ route }) => {
         setUserEvents((value) => { return [...value] })
         updateEvents(userDetails.userName, userEvents)
     }
+
     const popToLast = (events: Array<object>) => {
         getTrack(events);
         pop();
