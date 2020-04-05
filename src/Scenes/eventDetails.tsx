@@ -32,7 +32,6 @@ const EventDetails: React.FC = ({ route }) => {
             setAlreadyTracking(true)
         else
             setAlreadyTracking(false)
-
     }
 
     const trackEvent = () => {
